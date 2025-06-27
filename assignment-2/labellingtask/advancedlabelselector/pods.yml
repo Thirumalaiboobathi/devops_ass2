@@ -1,0 +1,140 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-a
+  labels:
+    app: myapp
+    env: dev
+    tier: frontend
+spec:
+  containers:
+  - name: dummy
+    image: busybox
+    command: ["sleep", "3600"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-b
+  labels:
+    app: myapp
+    env: prod
+    tier: backend
+spec:
+  containers:
+  - name: dummy
+    image: busybox
+    command: ["sleep", "3600"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-c
+  labels:
+    app: yourapp
+    env: staging
+    tier: database
+spec:
+  containers:
+  - name: dummy
+    image: busybox
+    command: ["sleep", "3600"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-d
+  labels:
+    app: myapp
+    env: dev
+    tier: backend
+    version: v1
+spec:
+  containers:
+  - name: dummy
+    image: busybox
+    command: ["sleep", "3600"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-e
+  labels:
+    app: myapp
+    env: prod
+    tier: frontend
+    version: v2
+spec:
+  containers:
+  - name: dummy
+    image: busybox
+    command: ["sleep", "3600"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-f
+  labels:
+    app: internal
+    env: staging
+    tier: frontend
+spec:
+  containers:
+  - name: dummy
+    image: busybox
+    command: ["sleep", "3600"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-g
+  labels:
+    app: internal
+    tier: backend
+spec:
+  containers:
+  - name: dummy
+    image: busybox
+    command: ["sleep", "3600"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-h
+  labels:
+    env: dev
+    region: us-east
+    app: myapp
+spec:
+  containers:
+  - name: dummy
+    image: busybox
+    command: ["sleep", "3600"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-i
+  labels:
+    app: yourapp
+    env: prod
+    region: us-west
+spec:
+  containers:
+  - name: dummy
+    image: busybox
+    command: ["sleep", "3600"]
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-j
+  labels:
+    app: test
+    tier: database
+    env: qa
+spec:
+  containers:
+  - name: dummy
+    image: busybox
+    command: ["sleep", "3600"]

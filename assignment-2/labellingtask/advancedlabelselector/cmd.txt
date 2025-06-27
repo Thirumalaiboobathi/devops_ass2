@@ -1,0 +1,48 @@
+
+
+## 🔹 AND Condition  
+Select Pods where `app=myapp` **AND** `env=prod`:
+```bash
+kubectl get pods -l 'app=myapp,env=prod'
+
+🔹 NOT Condition
+Select Pods where env is NOT prod:
+
+
+kubectl get pods -l 'env!=prod'
+
+🔹 Set-based Selector
+Select Pods where env is dev or staging:
+
+kubectl get pods --selector='env in (dev, staging)'
+
+
+🔹 Set-based Exclusion
+Select Pods where tier is NOT in frontend, backend:
+
+kubectl get pods --selector='tier notin (frontend, backend)'
+
+
+🔹 Existence Check
+Select Pods where the version label exists:
+
+kubectl get pods --selector='version'
+
+
+Select Pods where the region label does not exist:
+
+kubectl get pods --selector='!region'
+🔹 Describe All Resources Matching Labels
+
+kubectl describe all -l app=myapp,env=prod
+
+
+🔹 Delete All Pods with Specific Label
+
+kubectl delete pod -l env=dev
+
+
+🔹 Scale All Frontend Deployments to 5 Replicas
+
+kubectl get deployments -l tier=frontend -o name | xargs -I {} kubectl scale {} --replicas=5
+

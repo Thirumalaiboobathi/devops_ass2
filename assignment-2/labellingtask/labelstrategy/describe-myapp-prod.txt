@@ -1,0 +1,214 @@
+Name:             api-backend-dev-b448f6d6d-8gzdz
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             minikube/192.168.49.2
+Start Time:       Fri, 27 Jun 2025 12:29:03 +0530
+Labels:           app=myapp
+                  component=express-api
+                  env=prod
+                  pod-template-hash=b448f6d6d
+                  tier=backend
+Annotations:      <none>
+Status:           Running
+IP:               10.244.1.144
+IPs:
+  IP:           10.244.1.144
+Controlled By:  ReplicaSet/api-backend-dev-b448f6d6d
+Containers:
+  api-server:
+    Container ID:   docker://5225695be59b4f5519250b7095286f67dc2cd53c7b1b925adf9c28edfec3fec3
+    Image:          nginx
+    Image ID:       docker-pullable://nginx@sha256:dc53c8f25a10f9109190ed5b59bda2d707a3bde0e45857ce9e1efaa32ff9cbc1
+    Port:           3000/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Fri, 27 Jun 2025 12:29:12 +0530
+    Ready:          True
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-8vkr6 (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-8vkr6:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age    From               Message
+  ----    ------     ----   ----               -------
+  Normal  Scheduled  7m6s   default-scheduler  Successfully assigned default/api-backend-dev-b448f6d6d-8gzdz to minikube
+  Normal  Pulling    6m58s  kubelet            Pulling image "nginx"
+  Normal  Pulled     6m57s  kubelet            Successfully pulled image "nginx" in 3.817s (3.817s including waiting). Image size: 192226221 bytes.
+  Normal  Created    6m57s  kubelet            Created container: api-server
+  Normal  Started    6m56s  kubelet            Started container api-server
+
+
+Name:             api-backend-dev-b448f6d6d-zjd4m
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             minikube/192.168.49.2
+Start Time:       Fri, 27 Jun 2025 12:29:03 +0530
+Labels:           app=myapp
+                  component=express-api
+                  env=prod
+                  pod-template-hash=b448f6d6d
+                  tier=backend
+Annotations:      <none>
+Status:           Running
+IP:               10.244.1.143
+IPs:
+  IP:           10.244.1.143
+Controlled By:  ReplicaSet/api-backend-dev-b448f6d6d
+Containers:
+  api-server:
+    Container ID:   docker://f7667513f2d7d20dc8b92996e277a891faa00a2f925689c6d3d84d9ed21923ca
+    Image:          nginx
+    Image ID:       docker-pullable://nginx@sha256:dc53c8f25a10f9109190ed5b59bda2d707a3bde0e45857ce9e1efaa32ff9cbc1
+    Port:           3000/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Fri, 27 Jun 2025 12:29:16 +0530
+    Ready:          True
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-vr7t8 (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-vr7t8:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age    From               Message
+  ----    ------     ----   ----               -------
+  Normal  Scheduled  7m7s   default-scheduler  Successfully assigned default/api-backend-dev-b448f6d6d-zjd4m to minikube
+  Normal  Pulling    6m59s  kubelet            Pulling image "nginx"
+  Normal  Pulled     6m55s  kubelet            Successfully pulled image "nginx" in 3.3s (6.993s including waiting). Image size: 192226221 bytes.
+  Normal  Created    6m54s  kubelet            Created container: api-server
+  Normal  Started    6m54s  kubelet            Started container api-server
+
+
+Name:                     api-backend-service-dev
+Namespace:                default
+Labels:                   app=myapp
+                          env=prod
+                          tier=backend
+Annotations:              <none>
+Selector:                 app=myapp,env=prod,tier=backend
+Type:                     ClusterIP
+IP Family Policy:         SingleStack
+IP Families:              IPv4
+IP:                       10.100.33.188
+IPs:                      10.100.33.188
+Port:                     <unset>  3000/TCP
+TargetPort:               3000/TCP
+Endpoints:                10.244.1.144:3000,10.244.1.143:3000
+Session Affinity:         None
+Internal Traffic Policy:  Cluster
+Events:                   <none>
+
+
+Name:                   api-backend-dev
+Namespace:              default
+CreationTimestamp:      Fri, 27 Jun 2025 12:29:03 +0530
+Labels:                 app=myapp
+                        component=express-api
+                        env=prod
+                        tier=backend
+Annotations:            deployment.kubernetes.io/revision: 1
+Selector:               app=myapp,env=prod,tier=backend
+Replicas:               2 desired | 2 updated | 2 total | 2 available | 0 unavailable
+StrategyType:           RollingUpdate
+MinReadySeconds:        0
+RollingUpdateStrategy:  25% max unavailable, 25% max surge
+Pod Template:
+  Labels:  app=myapp
+           component=express-api
+           env=prod
+           tier=backend
+  Containers:
+   api-server:
+    Image:         nginx
+    Port:          3000/TCP
+    Host Port:     0/TCP
+    Environment:   <none>
+    Mounts:        <none>
+  Volumes:         <none>
+  Node-Selectors:  <none>
+  Tolerations:     <none>
+Conditions:
+  Type           Status  Reason
+  ----           ------  ------
+  Available      True    MinimumReplicasAvailable
+  Progressing    True    NewReplicaSetAvailable
+OldReplicaSets:  <none>
+NewReplicaSet:   api-backend-dev-b448f6d6d (2/2 replicas created)
+Events:
+  Type    Reason             Age   From                   Message
+  ----    ------             ----  ----                   -------
+  Normal  ScalingReplicaSet  7m7s  deployment-controller  Scaled up replica set api-backend-dev-b448f6d6d from 0 to 2
+
+
+Name:           api-backend-dev-b448f6d6d
+Namespace:      default
+Selector:       app=myapp,env=prod,pod-template-hash=b448f6d6d,tier=backend
+Labels:         app=myapp
+                component=express-api
+                env=prod
+                pod-template-hash=b448f6d6d
+                tier=backend
+Annotations:    deployment.kubernetes.io/desired-replicas: 2
+                deployment.kubernetes.io/max-replicas: 3
+                deployment.kubernetes.io/revision: 1
+Controlled By:  Deployment/api-backend-dev
+Replicas:       2 current / 2 desired
+Pods Status:    2 Running / 0 Waiting / 0 Succeeded / 0 Failed
+Pod Template:
+  Labels:  app=myapp
+           component=express-api
+           env=prod
+           pod-template-hash=b448f6d6d
+           tier=backend
+  Containers:
+   api-server:
+    Image:         nginx
+    Port:          3000/TCP
+    Host Port:     0/TCP
+    Environment:   <none>
+    Mounts:        <none>
+  Volumes:         <none>
+  Node-Selectors:  <none>
+  Tolerations:     <none>
+Events:
+  Type    Reason            Age   From                   Message
+  ----    ------            ----  ----                   -------
+  Normal  SuccessfulCreate  7m8s  replicaset-controller  Created pod: api-backend-dev-b448f6d6d-8gzdz
+  Normal  SuccessfulCreate  7m8s  replicaset-controller  Created pod: api-backend-dev-b448f6d6d-zjd4m
