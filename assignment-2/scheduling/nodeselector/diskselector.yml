@@ -1,0 +1,12 @@
+# pod-ssd.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ssd-pod
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+  nodeSelector:
+    disktype: ssd
+

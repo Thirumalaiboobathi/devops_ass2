@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: soft-affinity-demo
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: soft-affinity
+  template:
+    metadata:
+      labels:
+        app: soft-affinity
+    spec:
+      affinity:
+        podAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 100
+            podAffinityTerm:
+              labelSelector:
+                matchExpressions:
+                - key: app
+                  operator: In
+                  values:
+                  - soft-affinity
+              topologyKey: kubernetes.io/hostname
+      containers:
+      - name: nginx
+        image: nginx

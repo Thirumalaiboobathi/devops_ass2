@@ -1,0 +1,9 @@
+# regular-pod.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: regular-pod
+spec:
+  containers:
+  - name: nginx
+    image: nginx

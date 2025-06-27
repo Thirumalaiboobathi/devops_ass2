@@ -1,0 +1,11 @@
+# pod-hdd.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hdd-pod
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+  nodeSelector:
+    disktype: hdd

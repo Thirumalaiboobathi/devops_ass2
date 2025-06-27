@@ -1,0 +1,11 @@
+# memory-hog.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: memory-hog
+spec:
+  containers:
+  - name: hog
+    image: polinux/stress
+    command: ["stress"]
+    args: ["--vm", "1", "--vm-bytes", "64M", "--vm-hang", "1"]

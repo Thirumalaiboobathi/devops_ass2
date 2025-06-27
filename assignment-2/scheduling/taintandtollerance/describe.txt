@@ -1,0 +1,706 @@
+LAST SEEN   TYPE      REASON                         OBJECT                                         MESSAGE
+37m         Normal    Starting                       node/minikube                                  
+110m        Warning   Failed                         pod/pod-i                                      Error: ErrImagePull
+110m        Warning   Failed                         pod/pod-f                                      Error: ErrImagePull
+110m        Warning   Failed                         pod/pod-f                                      Failed to pull image "busybox": Error response from daemon: Get "https://registry-1.docker.io/v2/": dial tcp: lookup registry-1.docker.io on 192.168.65.254:53: no such host
+110m        Warning   Failed                         pod/pod-b                                      Error: ErrImagePull
+110m        Warning   Failed                         pod/pod-e                                      Failed to pull image "busybox": Error response from daemon: Get "https://registry-1.docker.io/v2/": dial tcp: lookup registry-1.docker.io on 192.168.65.254:53: no such host
+110m        Warning   Failed                         pod/pod-e                                      Error: ErrImagePull
+109m        Warning   Failed                         pod/pod-h                                      Error: ErrImagePull
+109m        Warning   Failed                         pod/pod-h                                      Failed to pull image "busybox": Error response from daemon: Get "https://registry-1.docker.io/v2/": dial tcp: lookup registry-1.docker.io on 192.168.65.254:53: no such host
+108m        Warning   Failed                         pod/pod-g                                      Error: ErrImagePull
+108m        Warning   Failed                         pod/pod-g                                      Failed to pull image "busybox": Error response from daemon: Get "https://registry-1.docker.io/v2/": dial tcp: lookup registry-1.docker.io on 192.168.65.254:53: no such host
+108m        Warning   Failed                         pod/pod-c                                      Error: ErrImagePull
+108m        Warning   Failed                         pod/pod-d                                      Error: ErrImagePull
+108m        Warning   Failed                         pod/pod-d                                      Failed to pull image "busybox": Error response from daemon: Get "https://registry-1.docker.io/v2/": dial tcp: lookup registry-1.docker.io on 192.168.65.254:53: no such host
+108m        Warning   Failed                         pod/pod-a                                      Error: ErrImagePull
+108m        Warning   Failed                         pod/pod-a                                      Failed to pull image "busybox": Error response from daemon: Get "https://registry-1.docker.io/v2/": dial tcp: lookup registry-1.docker.io on 192.168.65.254:53: no such host
+108m        Warning   BackOff                        pod/pod-i                                      Back-off restarting failed container dummy in pod pod-i_default(db9eef76-fbee-4fb8-a590-2745f18fb93b)
+107m        Warning   BackOff                        pod/pod-b                                      Back-off restarting failed container dummy in pod pod-b_default(aeb19e1e-5cc4-4c8b-ae84-350fb4053ff7)
+107m        Warning   BackOff                        pod/pod-c                                      Back-off restarting failed container dummy in pod pod-c_default(e1f85782-6b51-4145-9b00-c08df5e551a9)
+107m        Warning   BackOff                        pod/pod-h                                      Back-off restarting failed container dummy in pod pod-h_default(540849ee-7fbe-405c-9a2c-c4c0cb68a95f)
+107m        Warning   Failed                         pod/pod-i                                      Failed to pull image "busybox": Error response from daemon: Get "https://registry-1.docker.io/v2/": dial tcp: lookup registry-1.docker.io on 192.168.65.254:53: no such host
+107m        Warning   BackOff                        pod/pod-f                                      Back-off restarting failed container dummy in pod pod-f_default(04588f10-7e62-47d9-bbe0-7df7f6881fac)
+107m        Warning   BackOff                        pod/pod-e                                      Back-off restarting failed container dummy in pod pod-e_default(010c75ee-616f-4db6-8566-059bb30cf42e)
+106m        Warning   Failed                         pod/pod-b                                      Failed to pull image "busybox": Error response from daemon: Get "https://registry-1.docker.io/v2/": dial tcp: lookup registry-1.docker.io on 192.168.65.254:53: no such host
+106m        Warning   BackOff                        pod/pod-g                                      Back-off restarting failed container dummy in pod pod-g_default(521e4fdc-5183-47c0-a1eb-da3c80c98395)
+106m        Warning   BackOff                        pod/pod-d                                      Back-off restarting failed container dummy in pod pod-d_default(dd1bf0e4-6165-492b-aca7-16732a0f511d)
+106m        Normal    Pulling                        pod/pod-h                                      Pulling image "busybox"
+106m        Warning   BackOff                        pod/pod-a                                      Back-off restarting failed container dummy in pod pod-a_default(0944a036-8cc4-4ad5-80a2-0b802d7a48c0)
+106m        Warning   Failed                         pod/pod-c                                      Failed to pull image "busybox": Error response from daemon: Get "https://registry-1.docker.io/v2/": dial tcp: lookup registry-1.docker.io on 192.168.65.254:53: no such host
+106m        Normal    Pulling                        pod/pod-g                                      Pulling image "busybox"
+105m        Normal    Pulling                        pod/pod-a                                      Pulling image "busybox"
+104m        Normal    Pulling                        pod/pod-i                                      Pulling image "busybox"
+104m        Normal    Pulling                        pod/pod-b                                      Pulling image "busybox"
+104m        Normal    Pulling                        pod/pod-f                                      Pulling image "busybox"
+103m        Normal    Pulling                        pod/pod-e                                      Pulling image "busybox"
+103m        Normal    Pulling                        pod/pod-c                                      Pulling image "busybox"
+103m        Normal    Pulling                        pod/pod-d                                      Pulling image "busybox"
+81m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/myapp                  failed to get cpu utilization: missing request for cpu in container dummy of Pod pod-e
+78m         Warning   Failed                         pod/rolling-deployment-5697d46649-mkmmv        Failed to pull image "nginx:doesnotexist": Error response from daemon: Get "https://registry-1.docker.io/v2/": dial tcp: lookup registry-1.docker.io on 192.168.65.254:53: no such host
+72m         Normal    BackOff                        pod/pod-i                                      Back-off pulling image "busybox"
+72m         Warning   Failed                         pod/pod-i                                      Error: ImagePullBackOff
+72m         Normal    BackOff                        pod/pod-b                                      Back-off pulling image "busybox"
+72m         Warning   Failed                         pod/pod-b                                      Error: ImagePullBackOff
+71m         Normal    BackOff                        pod/pod-e                                      Back-off pulling image "busybox"
+71m         Warning   Failed                         pod/pod-e                                      Error: ImagePullBackOff
+71m         Normal    BackOff                        pod/pod-f                                      Back-off pulling image "busybox"
+71m         Warning   Failed                         pod/pod-f                                      Error: ImagePullBackOff
+71m         Normal    BackOff                        pod/pod-d                                      Back-off pulling image "busybox"
+71m         Warning   Failed                         pod/pod-d                                      Error: ImagePullBackOff
+71m         Normal    BackOff                        pod/pod-c                                      Back-off pulling image "busybox"
+71m         Warning   Failed                         pod/pod-c                                      Error: ImagePullBackOff
+68m         Warning   Failed                         pod/load-generator                             Error: ImagePullBackOff
+67m         Warning   Failed                         pod/pod-h                                      Error: ImagePullBackOff
+67m         Normal    BackOff                        pod/pod-h                                      Back-off pulling image "busybox"
+66m         Normal    BackOff                        pod/load-generator                             Back-off pulling image "busybox"
+66m         Normal    BackOff                        pod/pod-g                                      Back-off pulling image "busybox"
+66m         Warning   Failed                         pod/pod-g                                      Error: ImagePullBackOff
+66m         Warning   Failed                         pod/pod-a                                      Error: ImagePullBackOff
+66m         Normal    BackOff                        pod/pod-a                                      Back-off pulling image "busybox"
+66m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/myapp                  (combined from similar events): failed to get cpu utilization: missing request for cpu in container dummy of Pod pod-d
+63m         Warning   Failed                         pod/rolling-deployment-5697d46649-bk4d5        Error: ImagePullBackOff
+61m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/myapp                  failed to get cpu utilization: missing request for cpu in container react-app of Pod react-frontend-dev-79b7b6cc87-b5p7m
+58m         Warning   BackOff                        pod/load-generator                             Back-off restarting failed container load-generator in pod load-generator_default(1a7e0cf0-5e34-4e35-a49f-31919de45782)
+57m         Normal    BackOff                        pod/app                                        Back-off pulling image "pilotapp:v1"
+56m         Normal    BackOff                        pod/rolling-deployment-5697d46649-mkmmv        Back-off pulling image "nginx:doesnotexist"
+56m         Normal    BackOff                        pod/rolling-deployment-5697d46649-bk4d5        Back-off pulling image "nginx:doesnotexist"
+56m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/myapp                  failed to get cpu utilization: missing request for cpu in container react-app of Pod react-frontend-dev-79b7b6cc87-5hjws
+55m         Warning   Failed                         pod/app                                        Error: ImagePullBackOff
+54m         Normal    Pulling                        pod/load-generator                             Pulling image "busybox"
+54m         Normal    BackOff                        pod/backend-dev-deployment-8448bb4f88-nw68s    Back-off pulling image "my-backend:latest"
+54m         Normal    BackOff                        pod/backend-dev-deployment-8448bb4f88-sc8tj    Back-off pulling image "my-backend:latest"
+53m         Warning   Failed                         pod/backend-dev-deployment-8448bb4f88-nw68s    Error: ImagePullBackOff
+53m         Warning   Failed                         pod/backend-dev-deployment-8448bb4f88-sc8tj    Error: ImagePullBackOff
+53m         Warning   Failed                         pod/rolling-deployment-5697d46649-mkmmv        Error: ImagePullBackOff
+53m         Warning   Failed                         pod/rolling-deployment-5697d46649-bk4d5        Failed to pull image "nginx:doesnotexist": Error response from daemon: manifest for nginx:doesnotexist not found: manifest unknown: manifest unknown
+39m         Normal    Starting                       node/minikube                                  Starting kubelet.
+39m         Normal    NodeAllocatableEnforced        node/minikube                                  Updated Node Allocatable limit across pods
+39m         Normal    NodeHasSufficientPID           node/minikube                                  Node minikube status is now: NodeHasSufficientPID
+39m         Normal    NodeHasNoDiskPressure          node/minikube                                  Node minikube status is now: NodeHasNoDiskPressure
+39m         Normal    NodeHasSufficientMemory        node/minikube                                  Node minikube status is now: NodeHasSufficientMemory
+38m         Warning   Rebooted                       node/minikube                                  Node minikube has been rebooted, boot id: 282c293b-2b7b-40cd-9007-12501cdb62ab
+38m         Normal    SandboxChanged                 pod/myapp-5886fbf8-z2bzs                       Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/web-app-5c89984b6f-nsjdd                   Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/deploy-6f66f85776-zqvtf                    Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/httpds-bbd777f8d-svclx                     Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/web-1                                      Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/web-app-5c89984b6f-bh6mh                   Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/web-app-5c89984b6f-6xcl2                   Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/recreate-deployment-866ccdc575-hrh45       Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/web-2                                      Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/load-generator                             Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/app                                        Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/rolling-deployment-55b6d89599-8szt7        Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/api-backend-dev-b448f6d6d-8gzdz            Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/web-app-5c89984b6f-frm8t                   Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/log-processor                              Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/web-app-5c89984b6f-4sf2t                   Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/rolling-deployment-55b6d89599-pg7r7        Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/rolling-deployment-55b6d89599-qshvp        Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/standalone-nginx                           Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/backend-dev-deployment-8448bb4f88-nw68s    Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/web-0                                      Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/nginx-deployment-86c57bc6b8-8rk92          Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/nginx-deployment-86c57bc6b8-xcmgp          Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/pod-h                                      Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/pod-e                                      Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/react-frontend-dev-79b7b6cc87-b5p7m        Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/react-frontend-dev-79b7b6cc87-5hjws        Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/pod-c                                      Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/pod-b                                      Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/pod-g                                      Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/deploy-6f66f85776-h2wd8                    Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/rolling-deployment-5697d46649-mkmmv        Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/rolling-deployment-5697d46649-bk4d5        Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/httpd-7ffb6c7dd7-qzfwh                     Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/httpds-bbd777f8d-nfsh9                     Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/backend-dev-deployment-8448bb4f88-sc8tj    Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/react-frontend-dev-79b7b6cc87-59ttw        Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/nginx                                      Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/pod-f                                      Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/recreate-deployment-866ccdc575-msjjh       Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/postgres-db-dev-778b4db454-zgpdj           Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/httpd-7ffb6c7dd7-lcwxq                     Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/httpds-bbd777f8d-5qlpk                     Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/pod-d                                      Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/nginx-deployment-86c57bc6b8-sksw5          Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/pod-i                                      Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/web-app-5c89984b6f-wxds8                   Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/api-backend-dev-b448f6d6d-zjd4m            Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/react-frontend-dev-79b7b6cc87-7wt8p        Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/pod-a                                      Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/react-frontend-dev-79b7b6cc87-jk8m6        Pod sandbox changed, it will be killed and re-created.
+38m         Normal    SandboxChanged                 pod/httpd-7ffb6c7dd7-dzxfv                     Pod sandbox changed, it will be killed and re-created.
+38m         Normal    Pulled                         pod/myapp-5886fbf8-z2bzs                       Container image "myapp:v1" already present on machine
+38m         Normal    Created                        pod/myapp-5886fbf8-z2bzs                       Created container: myapp
+38m         Normal    Started                        pod/myapp-5886fbf8-z2bzs                       Started container myapp
+37m         Normal    Pulled                         pod/web-app-5c89984b6f-6xcl2                   Container image "nginx:1.19" already present on machine
+37m         Normal    Pulling                        pod/web-1                                      Pulling image "nginx"
+37m         Normal    Created                        pod/web-app-5c89984b6f-6xcl2                   Created container: nginx
+37m         Normal    Pulling                        pod/deploy-6f66f85776-zqvtf                    Pulling image "nginx:1.25"
+37m         Normal    Pulled                         pod/rolling-deployment-55b6d89599-pg7r7        Container image "nginx:1.26" already present on machine
+37m         Normal    Pulled                         pod/recreate-deployment-866ccdc575-hrh45       Container image "nginx:1.26" already present on machine
+37m         Normal    Created                        pod/recreate-deployment-866ccdc575-hrh45       Created container: recreate-container
+37m         Normal    Created                        pod/rolling-deployment-55b6d89599-pg7r7        Created container: rolling-container
+37m         Normal    Started                        pod/web-app-5c89984b6f-6xcl2                   Started container nginx
+37m         Normal    Pulled                         pod/load-generator                             Successfully pulled image "busybox" in 5.085s (26.905s including waiting). Image size: 4277910 bytes.
+37m         Normal    Started                        pod/rolling-deployment-55b6d89599-pg7r7        Started container rolling-container
+37m         Normal    Started                        pod/recreate-deployment-866ccdc575-hrh45       Started container recreate-container
+37m         Normal    Pulled                         pod/web-1                                      Successfully pulled image "nginx" in 5.461s (31.522s including waiting). Image size: 192226221 bytes.
+37m         Normal    Pulled                         pod/web-app-5c89984b6f-bh6mh                   Container image "nginx:1.19" already present on machine
+37m         Normal    Pulled                         pod/log-processor                              Container image "nginx:1.20" already present on machine
+37m         Normal    Created                        pod/web-1                                      Created container: nginx
+37m         Normal    Created                        pod/web-app-5c89984b6f-bh6mh                   Created container: nginx
+37m         Normal    Created                        pod/log-processor                              Created container: nginx
+37m         Normal    Pulled                         pod/deploy-6f66f85776-zqvtf                    Successfully pulled image "nginx:1.25" in 6.376s (26.653s including waiting). Image size: 187659947 bytes.
+37m         Normal    Created                        pod/deploy-6f66f85776-zqvtf                    Created container: nginx
+37m         Normal    Started                        pod/web-app-5c89984b6f-bh6mh                   Started container nginx
+37m         Normal    Started                        pod/web-1                                      Started container nginx
+37m         Normal    Started                        pod/log-processor                              Started container nginx
+37m         Normal    Started                        pod/deploy-6f66f85776-zqvtf                    Started container nginx
+37m         Normal    Pulling                        pod/log-processor                              Pulling image "busybox"
+37m         Normal    Pulled                         pod/log-processor                              Successfully pulled image "busybox" in 3.685s (7.874s including waiting). Image size: 4277910 bytes.
+37m         Normal    Created                        pod/log-processor                              Created container: busybox
+36m         Normal    Started                        pod/log-processor                              Started container busybox
+35m         Normal    Pulling                        pod/pod-h                                      Pulling image "busybox"
+35m         Normal    Pulling                        pod/web-0                                      Pulling image "nginx"
+35m         Normal    Pulling                        pod/react-frontend-dev-79b7b6cc87-jk8m6        Pulling image "nginx"
+35m         Normal    Pulled                         pod/pod-h                                      Successfully pulled image "busybox" in 2.846s (2.846s including waiting). Image size: 4277910 bytes.
+35m         Normal    Created                        pod/pod-h                                      Created container: dummy
+35m         Normal    Started                        pod/pod-h                                      Started container dummy
+35m         Normal    Created                        pod/react-frontend-dev-79b7b6cc87-jk8m6        Created container: react-app
+35m         Normal    Pulled                         pod/react-frontend-dev-79b7b6cc87-jk8m6        Successfully pulled image "nginx" in 2.904s (5.75s including waiting). Image size: 192226221 bytes.
+35m         Normal    Started                        pod/react-frontend-dev-79b7b6cc87-jk8m6        Started container react-app
+35m         Normal    Pulled                         pod/web-0                                      Successfully pulled image "nginx" in 2.86s (8.61s including waiting). Image size: 192226221 bytes.
+35m         Normal    Created                        pod/web-0                                      Created container: nginx
+35m         Normal    Pulling                        pod/pod-c                                      Pulling image "busybox"
+35m         Normal    Started                        pod/web-0                                      Started container nginx
+35m         Normal    Pulled                         pod/load-generator                             Successfully pulled image "busybox" in 2.828s (6.978s including waiting). Image size: 4277910 bytes.
+35m         Normal    Pulled                         pod/web-app-5c89984b6f-frm8t                   Container image "nginx:1.19" already present on machine
+35m         Normal    Created                        pod/web-app-5c89984b6f-frm8t                   Created container: nginx
+35m         Normal    RegisteredNode                 node/minikube                                  Node minikube event: Registered Node minikube in Controller
+35m         Normal    Pulled                         pod/pod-c                                      Successfully pulled image "busybox" in 4.627s (5.867s including waiting). Image size: 4277910 bytes.
+35m         Normal    Created                        pod/pod-c                                      Created container: dummy
+35m         Normal    Pulling                        pod/react-frontend-dev-79b7b6cc87-5hjws        Pulling image "nginx"
+35m         Normal    Pulled                         pod/postgres-db-dev-778b4db454-zgpdj           Container image "postgres:15" already present on machine
+35m         Normal    Pulled                         pod/rolling-deployment-55b6d89599-8szt7        Container image "nginx:1.26" already present on machine
+35m         Normal    Created                        pod/postgres-db-dev-778b4db454-zgpdj           Created container: postgres
+35m         Normal    Started                        pod/pod-c                                      Started container dummy
+35m         Normal    Started                        pod/web-app-5c89984b6f-frm8t                   Started container nginx
+35m         Normal    Created                        pod/rolling-deployment-55b6d89599-8szt7        Created container: rolling-container
+35m         Normal    Pulling                        pod/pod-i                                      Pulling image "busybox"
+35m         Normal    Pulled                         pod/react-frontend-dev-79b7b6cc87-5hjws        Successfully pulled image "nginx" in 3.624s (3.624s including waiting). Image size: 192226221 bytes.
+35m         Normal    Pulling                        pod/pod-d                                      Pulling image "busybox"
+35m         Normal    Pulling                        pod/nginx-deployment-86c57bc6b8-xcmgp          Pulling image "nginx"
+35m         Normal    Created                        pod/react-frontend-dev-79b7b6cc87-5hjws        Created container: react-app
+35m         Normal    Started                        pod/postgres-db-dev-778b4db454-zgpdj           Started container postgres
+35m         Normal    Started                        pod/react-frontend-dev-79b7b6cc87-5hjws        Started container react-app
+35m         Normal    Started                        pod/rolling-deployment-55b6d89599-8szt7        Started container rolling-container
+35m         Normal    Pulling                        pod/standalone-nginx                           Pulling image "nginx"
+35m         Normal    Pulled                         pod/pod-i                                      Successfully pulled image "busybox" in 6.402s (6.403s including waiting). Image size: 4277910 bytes.
+35m         Normal    Pulling                        pod/api-backend-dev-b448f6d6d-8gzdz            Pulling image "nginx"
+35m         Normal    Pulling                        pod/web-2                                      Pulling image "nginx"
+35m         Normal    Pulling                        pod/api-backend-dev-b448f6d6d-zjd4m            Pulling image "nginx"
+35m         Normal    Pulling                        pod/pod-e                                      Pulling image "busybox"
+35m         Normal    Pulling                        pod/httpds-bbd777f8d-svclx                     Pulling image "httpd"
+35m         Normal    Pulling                        pod/react-frontend-dev-79b7b6cc87-59ttw        Pulling image "nginx"
+35m         Normal    Pulled                         pod/recreate-deployment-866ccdc575-msjjh       Container image "nginx:1.26" already present on machine
+35m         Normal    Pulled                         pod/web-app-5c89984b6f-4sf2t                   Container image "nginx:1.19" already present on machine
+35m         Normal    Pulled                         pod/web-app-5c89984b6f-nsjdd                   Container image "nginx:1.19" already present on machine
+35m         Normal    Created                        pod/pod-i                                      Created container: dummy
+35m         Normal    Pulling                        pod/httpds-bbd777f8d-nfsh9                     Pulling image "httpd"
+35m         Normal    Pulling                        pod/httpd-7ffb6c7dd7-lcwxq                     Pulling image "httpd"
+35m         Normal    Pulling                        pod/nginx                                      Pulling image "nginx"
+35m         Normal    Pulling                        pod/httpds-bbd777f8d-5qlpk                     Pulling image "httpd"
+35m         Normal    Pulling                        pod/pod-f                                      Pulling image "busybox"
+35m         Normal    Pulling                        pod/react-frontend-dev-79b7b6cc87-7wt8p        Pulling image "nginx"
+35m         Normal    Pulling                        pod/pod-g                                      Pulling image "busybox"
+35m         Normal    Pulling                        pod/react-frontend-dev-79b7b6cc87-b5p7m        Pulling image "nginx"
+35m         Normal    Pulling                        pod/pod-b                                      Pulling image "busybox"
+35m         Normal    Pulling                        pod/deploy-6f66f85776-h2wd8                    Pulling image "nginx:1.25"
+35m         Normal    Created                        pod/web-app-5c89984b6f-4sf2t                   Created container: nginx
+35m         Normal    Pulling                        pod/httpd-7ffb6c7dd7-qzfwh                     Pulling image "httpd"
+35m         Normal    Pulling                        pod/nginx-deployment-86c57bc6b8-sksw5          Pulling image "nginx"
+35m         Normal    Pulling                        pod/pod-a                                      Pulling image "busybox"
+35m         Normal    Created                        pod/recreate-deployment-866ccdc575-msjjh       Created container: recreate-container
+35m         Normal    Pulled                         pod/rolling-deployment-55b6d89599-qshvp        Container image "nginx:1.26" already present on machine
+35m         Normal    Pulled                         pod/web-app-5c89984b6f-wxds8                   Container image "nginx:1.19" already present on machine
+35m         Normal    Pulling                        pod/nginx-deployment-86c57bc6b8-8rk92          Pulling image "nginx"
+35m         Normal    Pulled                         pod/pod-d                                      Successfully pulled image "busybox" in 5.135s (11.209s including waiting). Image size: 4277910 bytes.
+35m         Normal    Created                        pod/web-app-5c89984b6f-nsjdd                   Created container: nginx
+35m         Normal    Created                        pod/pod-d                                      Created container: dummy
+35m         Normal    Pulling                        pod/httpd-7ffb6c7dd7-dzxfv                     Pulling image "httpd"
+35m         Normal    Created                        pod/rolling-deployment-55b6d89599-qshvp        Created container: rolling-container
+35m         Normal    Created                        pod/web-app-5c89984b6f-wxds8                   Created container: nginx
+35m         Normal    Pulled                         pod/nginx-deployment-86c57bc6b8-xcmgp          Successfully pulled image "nginx" in 3.572s (20.811s including waiting). Image size: 192226221 bytes.
+35m         Normal    Created                        pod/nginx-deployment-86c57bc6b8-xcmgp          Created container: nginx
+35m         Normal    Started                        pod/pod-i                                      Started container dummy
+35m         Normal    Started                        pod/web-app-5c89984b6f-nsjdd                   Started container nginx
+35m         Normal    Started                        pod/recreate-deployment-866ccdc575-msjjh       Started container recreate-container
+35m         Normal    Started                        pod/rolling-deployment-55b6d89599-qshvp        Started container rolling-container
+35m         Normal    Started                        pod/web-app-5c89984b6f-wxds8                   Started container nginx
+35m         Normal    Started                        pod/web-app-5c89984b6f-4sf2t                   Started container nginx
+35m         Normal    Started                        pod/pod-d                                      Started container dummy
+35m         Normal    Started                        pod/nginx-deployment-86c57bc6b8-xcmgp          Started container nginx
+35m         Normal    Pulled                         pod/standalone-nginx                           Successfully pulled image "nginx" in 7.222s (22.033s including waiting). Image size: 192226221 bytes.
+34m         Normal    Created                        pod/standalone-nginx                           Created container: nginx
+34m         Normal    Pulled                         pod/api-backend-dev-b448f6d6d-zjd4m            Successfully pulled image "nginx" in 6.537s (27.694s including waiting). Image size: 192226221 bytes.
+34m         Normal    Started                        pod/standalone-nginx                           Started container nginx
+34m         Normal    Created                        pod/api-backend-dev-b448f6d6d-zjd4m            Created container: api-server
+34m         Normal    Pulled                         pod/api-backend-dev-b448f6d6d-8gzdz            Successfully pulled image "nginx" in 12.738s (40.47s including waiting). Image size: 192226221 bytes.
+34m         Normal    Started                        pod/api-backend-dev-b448f6d6d-zjd4m            Started container api-server
+34m         Normal    Created                        pod/api-backend-dev-b448f6d6d-8gzdz            Created container: api-server
+34m         Normal    Started                        pod/api-backend-dev-b448f6d6d-8gzdz            Started container api-server
+34m         Normal    Pulled                         pod/web-2                                      Successfully pulled image "nginx" in 4.586s (54.121s including waiting). Image size: 192226221 bytes.
+34m         Normal    Created                        pod/web-2                                      Created container: nginx
+34m         Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/myapp                  invalid metrics (1 invalid out of 1), first error is: failed to get cpu resource metric value: failed to get cpu utilization: unable to get metrics for resource cpu: unable to fetch metrics from resource metrics API: the server is currently unable to handle the request (get pods.metrics.k8s.io)
+34m         Normal    Started                        pod/web-2                                      Started container nginx
+34m         Normal    Pulled                         pod/httpds-bbd777f8d-svclx                     Successfully pulled image "httpd" in 5.739s (1m9.747s including waiting). Image size: 148251613 bytes.
+34m         Normal    Created                        pod/httpds-bbd777f8d-svclx                     Created container: httpd
+34m         Normal    Started                        pod/httpds-bbd777f8d-svclx                     Started container httpd
+34m         Normal    Pulled                         pod/pod-e                                      Successfully pulled image "busybox" in 3.444s (1m13.187s including waiting). Image size: 4277910 bytes.
+34m         Normal    Created                        pod/pod-e                                      Created container: dummy
+34m         Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/myapp                  invalid metrics (1 invalid out of 1), first error is: failed to get cpu resource metric value: failed to get cpu utilization: missing request for cpu in container postgres of Pod postgres-db-dev-778b4db454-zgpdj
+34m         Normal    Pulled                         pod/react-frontend-dev-79b7b6cc87-59ttw        Successfully pulled image "nginx" in 3.381s (1m16.567s including waiting). Image size: 192226221 bytes.
+34m         Normal    Created                        pod/react-frontend-dev-79b7b6cc87-59ttw        Created container: react-app
+34m         Normal    Started                        pod/pod-e                                      Started container dummy
+34m         Normal    Started                        pod/react-frontend-dev-79b7b6cc87-59ttw        Started container react-app
+33m         Normal    Pulled                         pod/httpds-bbd777f8d-nfsh9                     Successfully pulled image "httpd" in 2.928s (1m26.184s including waiting). Image size: 148251613 bytes.
+33m         Normal    Created                        pod/httpds-bbd777f8d-nfsh9                     Created container: httpd
+33m         Normal    Started                        pod/httpds-bbd777f8d-nfsh9                     Started container httpd
+33m         Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/myapp                  invalid metrics (1 invalid out of 1), first error is: failed to get cpu resource metric value: failed to get cpu utilization: missing request for cpu in container react-app of Pod react-frontend-dev-79b7b6cc87-5hjws
+33m         Normal    Pulled                         pod/httpd-7ffb6c7dd7-lcwxq                     Successfully pulled image "httpd" in 2.591s (1m27.457s including waiting). Image size: 148251613 bytes.
+33m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/myapp                  failed to get cpu utilization: missing request for cpu in container react-app of Pod react-frontend-dev-79b7b6cc87-5hjws
+33m         Normal    Created                        pod/httpd-7ffb6c7dd7-lcwxq                     Created container: httpd
+33m         Normal    Started                        pod/httpd-7ffb6c7dd7-lcwxq                     Started container httpd
+33m         Normal    Pulled                         pod/httpds-bbd777f8d-5qlpk                     Successfully pulled image "httpd" in 2.643s (1m30.099s including waiting). Image size: 148251613 bytes.
+33m         Normal    Created                        pod/httpds-bbd777f8d-5qlpk                     Created container: httpd
+33m         Normal    Started                        pod/httpds-bbd777f8d-5qlpk                     Started container httpd
+33m         Normal    Pulled                         pod/nginx                                      Successfully pulled image "nginx" in 2.967s (1m32.918s including waiting). Image size: 192226221 bytes.
+33m         Normal    Created                        pod/nginx                                      Created container: nginx
+33m         Normal    Started                        pod/nginx                                      Started container nginx
+33m         Normal    Pulled                         pod/pod-g                                      Successfully pulled image "busybox" in 3.219s (1m36.079s including waiting). Image size: 4277910 bytes.
+33m         Normal    Created                        pod/pod-g                                      Created container: dummy
+33m         Normal    Started                        pod/pod-g                                      Started container dummy
+33m         Normal    Pulled                         pod/httpd-7ffb6c7dd7-qzfwh                     Successfully pulled image "httpd" in 2.972s (1m38.977s including waiting). Image size: 148251613 bytes.
+33m         Normal    Created                        pod/httpd-7ffb6c7dd7-qzfwh                     Created container: httpd
+33m         Normal    Started                        pod/httpd-7ffb6c7dd7-qzfwh                     Started container httpd
+33m         Normal    Created                        pod/pod-a                                      Created container: dummy
+33m         Normal    Pulled                         pod/pod-a                                      Successfully pulled image "busybox" in 2.768s (1m41.649s including waiting). Image size: 4277910 bytes.
+33m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/myapp                  failed to get cpu utilization: missing request for cpu in container my-backend of Pod backend-dev-deployment-8448bb4f88-sc8tj
+33m         Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/myapp                  invalid metrics (1 invalid out of 1), first error is: failed to get cpu resource metric value: failed to get cpu utilization: missing request for cpu in container my-backend of Pod backend-dev-deployment-8448bb4f88-sc8tj
+33m         Normal    Started                        pod/pod-a                                      Started container dummy
+33m         Normal    Pulled                         pod/pod-b                                      Successfully pulled image "busybox" in 3.428s (1m44.899s including waiting). Image size: 4277910 bytes.
+33m         Normal    Created                        pod/pod-b                                      Created container: dummy
+33m         Normal    Started                        pod/pod-b                                      Started container dummy
+33m         Normal    Pulled                         pod/deploy-6f66f85776-h2wd8                    Successfully pulled image "nginx:1.25" in 2.804s (1m47.682s including waiting). Image size: 187659947 bytes.
+33m         Normal    Created                        pod/deploy-6f66f85776-h2wd8                    Created container: nginx
+33m         Normal    Started                        pod/deploy-6f66f85776-h2wd8                    Started container nginx
+33m         Normal    Pulled                         pod/nginx-deployment-86c57bc6b8-8rk92          Successfully pulled image "nginx" in 2.661s (1m53.631s including waiting). Image size: 192226221 bytes.
+33m         Normal    Created                        pod/nginx-deployment-86c57bc6b8-8rk92          Created container: nginx
+33m         Normal    Started                        pod/nginx-deployment-86c57bc6b8-8rk92          Started container nginx
+33m         Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/myapp                  invalid metrics (1 invalid out of 1), first error is: failed to get cpu resource metric value: failed to get cpu utilization: missing request for cpu in container dummy of Pod pod-e
+33m         Normal    Pulled                         pod/pod-f                                      Successfully pulled image "busybox" in 3.583s (1m57.214s including waiting). Image size: 4277910 bytes.
+33m         Normal    Created                        pod/pod-f                                      Created container: dummy
+33m         Normal    Started                        pod/pod-f                                      Started container dummy
+33m         Normal    Pulled                         pod/nginx-deployment-86c57bc6b8-sksw5          Successfully pulled image "nginx" in 4.195s (2m1.407s including waiting). Image size: 192226221 bytes.
+33m         Normal    Created                        pod/nginx-deployment-86c57bc6b8-sksw5          Created container: nginx
+33m         Normal    Started                        pod/nginx-deployment-86c57bc6b8-sksw5          Started container nginx
+33m         Normal    Pulled                         pod/react-frontend-dev-79b7b6cc87-b5p7m        Successfully pulled image "nginx" in 6.699s (2m8.027s including waiting). Image size: 192226221 bytes.
+33m         Normal    Created                        pod/react-frontend-dev-79b7b6cc87-b5p7m        Created container: react-app
+33m         Normal    Pulled                         pod/react-frontend-dev-79b7b6cc87-7wt8p        Successfully pulled image "nginx" in 7.094s (2m15.097s including waiting). Image size: 192226221 bytes.
+33m         Normal    Created                        pod/react-frontend-dev-79b7b6cc87-7wt8p        Created container: react-app
+33m         Normal    Started                        pod/react-frontend-dev-79b7b6cc87-b5p7m        Started container react-app
+33m         Normal    Pulled                         pod/httpd-7ffb6c7dd7-dzxfv                     Successfully pulled image "httpd" in 3.982s (2m18.781s including waiting). Image size: 148251613 bytes.
+33m         Normal    Started                        pod/react-frontend-dev-79b7b6cc87-7wt8p        Started container react-app
+32m         Normal    Created                        pod/httpd-7ffb6c7dd7-dzxfv                     Created container: httpd
+32m         Normal    Started                        pod/httpd-7ffb6c7dd7-dzxfv                     Started container httpd
+32m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/myapp                  failed to get cpu utilization: missing request for cpu in container react-app of Pod react-frontend-dev-79b7b6cc87-b5p7m
+32m         Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/myapp                  invalid metrics (1 invalid out of 1), first error is: failed to get cpu resource metric value: failed to get cpu utilization: missing request for cpu in container react-app of Pod react-frontend-dev-79b7b6cc87-b5p7m
+32m         Normal    Pulled                         pod/load-generator                             Successfully pulled image "busybox" in 2.566s (2m17.615s including waiting). Image size: 4277910 bytes.
+32m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/myapp                  failed to get cpu utilization: missing request for cpu in container my-backend of Pod backend-dev-deployment-8448bb4f88-nw68s
+32m         Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/myapp                  invalid metrics (1 invalid out of 1), first error is: failed to get cpu resource metric value: failed to get cpu utilization: missing request for cpu in container my-backend of Pod backend-dev-deployment-8448bb4f88-nw68s
+32m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/myapp                  failed to get cpu utilization: missing request for cpu in container postgres of Pod postgres-db-dev-778b4db454-zgpdj
+32m         Normal    Pulled                         pod/load-generator                             Successfully pulled image "busybox" in 2.775s (2.775s including waiting). Image size: 4277910 bytes.
+31m         Normal    Scheduled                      pod/ssd-pod                                    Successfully assigned default/ssd-pod to minikube
+30m         Normal    Pulling                        pod/ssd-pod                                    Pulling image "nginx"
+30m         Normal    Pulled                         pod/ssd-pod                                    Successfully pulled image "nginx" in 2.904s (2.905s including waiting). Image size: 192226221 bytes.
+30m         Normal    Created                        pod/ssd-pod                                    Created container: nginx
+30m         Normal    Started                        pod/ssd-pod                                    Started container nginx
+30m         Normal    Pulled                         pod/load-generator                             Successfully pulled image "busybox" in 2.875s (2.875s including waiting). Image size: 4277910 bytes.
+30m         Normal    Pulling                        pod/backend-dev-deployment-8448bb4f88-sc8tj    Pulling image "my-backend:latest"
+30m         Warning   Failed                         pod/backend-dev-deployment-8448bb4f88-sc8tj    Error: ErrImagePull
+30m         Warning   Failed                         pod/backend-dev-deployment-8448bb4f88-sc8tj    Failed to pull image "my-backend:latest": Error response from daemon: pull access denied for my-backend, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+29m         Normal    Pulling                        pod/app                                        Pulling image "pilotapp:v1"
+29m         Warning   Failed                         pod/app                                        Error: ErrImagePull
+29m         Normal    Pulling                        pod/rolling-deployment-5697d46649-bk4d5        Pulling image "nginx:doesnotexist"
+29m         Normal    Pulling                        pod/rolling-deployment-5697d46649-mkmmv        Pulling image "nginx:doesnotexist"
+29m         Normal    Pulling                        pod/backend-dev-deployment-8448bb4f88-nw68s    Pulling image "my-backend:latest"
+29m         Normal    Scheduled                      pod/hdd-pod                                    Successfully assigned default/hdd-pod to minikube
+29m         Warning   Failed                         pod/rolling-deployment-5697d46649-mkmmv        Error: ErrImagePull
+29m         Warning   Failed                         pod/rolling-deployment-5697d46649-mkmmv        Failed to pull image "nginx:doesnotexist": Error response from daemon: manifest for nginx:doesnotexist not found: manifest unknown: manifest unknown
+29m         Normal    Pulling                        pod/hdd-pod                                    Pulling image "nginx"
+29m         Warning   Failed                         pod/rolling-deployment-5697d46649-bk4d5        Error: ErrImagePull
+29m         Warning   Failed                         pod/rolling-deployment-5697d46649-bk4d5        Failed to pull image "nginx:doesnotexist": Error response from daemon: manifest for nginx:doesnotexist not found: manifest unknown: manifest unknown
+29m         Warning   Failed                         pod/backend-dev-deployment-8448bb4f88-nw68s    Error: ErrImagePull
+29m         Warning   Failed                         pod/backend-dev-deployment-8448bb4f88-nw68s    Failed to pull image "my-backend:latest": Error response from daemon: pull access denied for my-backend, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+29m         Normal    Pulled                         pod/hdd-pod                                    Successfully pulled image "nginx" in 2.825s (7.208s including waiting). Image size: 192226221 bytes.
+29m         Normal    Created                        pod/hdd-pod                                    Created container: nginx
+29m         Normal    Started                        pod/hdd-pod                                    Started container nginx
+27m         Normal    Pulled                         pod/load-generator                             Successfully pulled image "busybox" in 3.591s (3.591s including waiting). Image size: 4277910 bytes.
+26m         Warning   Failed                         pod/app                                        Failed to pull image "pilotapp:v1": Error response from daemon: pull access denied for pilotapp, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+25m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/myapp                  (combined from similar events): failed to get cpu utilization: missing request for cpu in container dummy of Pod pod-d
+22m         Normal    Pulled                         pod/load-generator                             Successfully pulled image "busybox" in 2.966s (2.966s including waiting). Image size: 4277910 bytes.
+20m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/myapp                  failed to get cpu utilization: missing request for cpu in container dummy of Pod pod-a
+18m         Normal    Scheduled                      pod/anti-affinity-demo-58975dfdbb-kwqdx        Successfully assigned default/anti-affinity-demo-58975dfdbb-kwqdx to minikube
+18m         Normal    ScalingReplicaSet              deployment/anti-affinity-demo                  Scaled up replica set anti-affinity-demo-58975dfdbb from 0 to 3
+18m         Normal    SuccessfulCreate               replicaset/anti-affinity-demo-58975dfdbb       Created pod: anti-affinity-demo-58975dfdbb-kwqdx
+18m         Normal    SuccessfulCreate               replicaset/anti-affinity-demo-58975dfdbb       Created pod: anti-affinity-demo-58975dfdbb-zgnz8
+18m         Normal    SuccessfulCreate               replicaset/anti-affinity-demo-58975dfdbb       Created pod: anti-affinity-demo-58975dfdbb-zpxz5
+18m         Normal    Scheduled                      pod/anti-affinity-demo-58975dfdbb-zpxz5        Successfully assigned default/anti-affinity-demo-58975dfdbb-zpxz5 to minikube
+18m         Normal    Scheduled                      pod/anti-affinity-demo-58975dfdbb-zgnz8        Successfully assigned default/anti-affinity-demo-58975dfdbb-zgnz8 to minikube
+18m         Normal    Pulling                        pod/anti-affinity-demo-58975dfdbb-zpxz5        Pulling image "nginx"
+18m         Normal    Pulling                        pod/anti-affinity-demo-58975dfdbb-kwqdx        Pulling image "nginx"
+18m         Normal    Pulling                        pod/anti-affinity-demo-58975dfdbb-zgnz8        Pulling image "nginx"
+18m         Normal    Pulled                         pod/anti-affinity-demo-58975dfdbb-kwqdx        Successfully pulled image "nginx" in 2.957s (2.957s including waiting). Image size: 192226221 bytes.
+17m         Normal    Created                        pod/anti-affinity-demo-58975dfdbb-kwqdx        Created container: nginx
+17m         Normal    Started                        pod/anti-affinity-demo-58975dfdbb-kwqdx        Started container nginx
+17m         Normal    Pulled                         pod/anti-affinity-demo-58975dfdbb-zgnz8        Successfully pulled image "nginx" in 2.507s (5.465s including waiting). Image size: 192226221 bytes.
+17m         Normal    Started                        pod/anti-affinity-demo-58975dfdbb-zgnz8        Started container nginx
+17m         Normal    Created                        pod/anti-affinity-demo-58975dfdbb-zgnz8        Created container: nginx
+17m         Normal    Pulled                         pod/anti-affinity-demo-58975dfdbb-zpxz5        Successfully pulled image "nginx" in 2.508s (7.972s including waiting). Image size: 192226221 bytes.
+17m         Normal    Created                        pod/anti-affinity-demo-58975dfdbb-zpxz5        Created container: nginx
+17m         Normal    Started                        pod/anti-affinity-demo-58975dfdbb-zpxz5        Started container nginx
+17m         Normal    Pulled                         pod/load-generator                             Successfully pulled image "busybox" in 3.064s (3.064s including waiting). Image size: 4277910 bytes.
+16m         Normal    Scheduled                      pod/seed-nginx                                 Successfully assigned default/seed-nginx to minikube
+16m         Normal    Scheduled                      pod/hard-affinity-demo-6db64dcd6b-z28tl        Successfully assigned default/hard-affinity-demo-6db64dcd6b-z28tl to minikube
+16m         Normal    SuccessfulCreate               replicaset/hard-affinity-demo-6db64dcd6b       Created pod: hard-affinity-demo-6db64dcd6b-s9kzn
+16m         Normal    Scheduled                      pod/hard-affinity-demo-6db64dcd6b-s9kzn        Successfully assigned default/hard-affinity-demo-6db64dcd6b-s9kzn to minikube
+16m         Normal    SuccessfulCreate               replicaset/hard-affinity-demo-6db64dcd6b       Created pod: hard-affinity-demo-6db64dcd6b-z28tl
+16m         Normal    ScalingReplicaSet              deployment/hard-affinity-demo                  Scaled up replica set hard-affinity-demo-6db64dcd6b from 0 to 2
+16m         Normal    Pulling                        pod/seed-nginx                                 Pulling image "nginx"
+16m         Normal    Pulling                        pod/hard-affinity-demo-6db64dcd6b-z28tl        Pulling image "nginx"
+16m         Normal    Pulling                        pod/hard-affinity-demo-6db64dcd6b-s9kzn        Pulling image "nginx"
+16m         Normal    Created                        pod/seed-nginx                                 Created container: nginx
+16m         Normal    Started                        pod/seed-nginx                                 Started container nginx
+16m         Normal    Pulled                         pod/seed-nginx                                 Successfully pulled image "nginx" in 2.91s (2.91s including waiting). Image size: 192226221 bytes.
+16m         Normal    Created                        pod/hard-affinity-demo-6db64dcd6b-z28tl        Created container: nginx
+16m         Normal    Pulled                         pod/hard-affinity-demo-6db64dcd6b-z28tl        Successfully pulled image "nginx" in 2.907s (4.039s including waiting). Image size: 192226221 bytes.
+16m         Normal    Started                        pod/hard-affinity-demo-6db64dcd6b-z28tl        Started container nginx
+16m         Normal    Created                        pod/hard-affinity-demo-6db64dcd6b-s9kzn        Created container: nginx
+16m         Normal    Pulled                         pod/hard-affinity-demo-6db64dcd6b-s9kzn        Successfully pulled image "nginx" in 2.614s (6.586s including waiting). Image size: 192226221 bytes.
+16m         Normal    Started                        pod/hard-affinity-demo-6db64dcd6b-s9kzn        Started container nginx
+15m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/myapp                  failed to get cpu utilization: missing request for cpu in container dummy of Pod pod-d
+14m         Normal    SuccessfulCreate               replicaset/soft-affinity-demo-787b675c78       Created pod: soft-affinity-demo-787b675c78-bgjb4
+14m         Normal    Scheduled                      pod/soft-affinity-demo-787b675c78-xsg9q        Successfully assigned default/soft-affinity-demo-787b675c78-xsg9q to minikube
+14m         Normal    Scheduled                      pod/soft-affinity-demo-787b675c78-bgjb4        Successfully assigned default/soft-affinity-demo-787b675c78-bgjb4 to minikube
+14m         Normal    SuccessfulCreate               replicaset/soft-affinity-demo-787b675c78       Created pod: soft-affinity-demo-787b675c78-xsg9q
+14m         Normal    SuccessfulCreate               replicaset/soft-affinity-demo-787b675c78       Created pod: soft-affinity-demo-787b675c78-j6fvk
+14m         Normal    ScalingReplicaSet              deployment/soft-affinity-demo                  Scaled up replica set soft-affinity-demo-787b675c78 from 0 to 3
+14m         Normal    Scheduled                      pod/soft-affinity-demo-787b675c78-j6fvk        Successfully assigned default/soft-affinity-demo-787b675c78-j6fvk to minikube
+14m         Normal    Pulling                        pod/soft-affinity-demo-787b675c78-j6fvk        Pulling image "nginx"
+14m         Normal    Pulling                        pod/soft-affinity-demo-787b675c78-xsg9q        Pulling image "nginx"
+14m         Normal    Pulling                        pod/soft-affinity-demo-787b675c78-bgjb4        Pulling image "nginx"
+14m         Normal    Created                        pod/soft-affinity-demo-787b675c78-j6fvk        Created container: nginx
+14m         Normal    Pulled                         pod/soft-affinity-demo-787b675c78-j6fvk        Successfully pulled image "nginx" in 3.562s (3.564s including waiting). Image size: 192226221 bytes.
+14m         Normal    Started                        pod/soft-affinity-demo-787b675c78-j6fvk        Started container nginx
+14m         Normal    Pulled                         pod/soft-affinity-demo-787b675c78-bgjb4        Successfully pulled image "nginx" in 2.781s (6.344s including waiting). Image size: 192226221 bytes.
+14m         Normal    Created                        pod/soft-affinity-demo-787b675c78-bgjb4        Created container: nginx
+14m         Normal    Started                        pod/soft-affinity-demo-787b675c78-bgjb4        Started container nginx
+14m         Normal    Pulled                         pod/soft-affinity-demo-787b675c78-xsg9q        Successfully pulled image "nginx" in 2.746s (9.089s including waiting). Image size: 192226221 bytes.
+14m         Normal    SuccessfulCreate               replicaset/anti-affinity-demo-58975dfdbb       Created pod: anti-affinity-demo-58975dfdbb-l2rvs
+14m         Normal    Created                        pod/soft-affinity-demo-787b675c78-xsg9q        Created container: nginx
+14m         Normal    ScalingReplicaSet              deployment/anti-affinity-demo                  Scaled up replica set anti-affinity-demo-58975dfdbb from 3 to 5
+14m         Normal    SuccessfulCreate               replicaset/anti-affinity-demo-58975dfdbb       Created pod: anti-affinity-demo-58975dfdbb-g2kg7
+14m         Normal    SuccessfulCreate               replicaset/hard-affinity-demo-6db64dcd6b       Created pod: hard-affinity-demo-6db64dcd6b-brn52
+14m         Normal    Scheduled                      pod/hard-affinity-demo-6db64dcd6b-brn52        Successfully assigned default/hard-affinity-demo-6db64dcd6b-brn52 to minikube
+14m         Normal    Scheduled                      pod/anti-affinity-demo-58975dfdbb-l2rvs        Successfully assigned default/anti-affinity-demo-58975dfdbb-l2rvs to minikube
+14m         Normal    ScalingReplicaSet              deployment/hard-affinity-demo                  Scaled up replica set hard-affinity-demo-6db64dcd6b from 2 to 3
+14m         Normal    Scheduled                      pod/anti-affinity-demo-58975dfdbb-g2kg7        Successfully assigned default/anti-affinity-demo-58975dfdbb-g2kg7 to minikube
+14m         Normal    Started                        pod/soft-affinity-demo-787b675c78-xsg9q        Started container nginx
+14m         Normal    Scheduled                      pod/soft-affinity-demo-787b675c78-pbvcb        Successfully assigned default/soft-affinity-demo-787b675c78-pbvcb to minikube
+14m         Normal    Scheduled                      pod/soft-affinity-demo-787b675c78-xhsrq        Successfully assigned default/soft-affinity-demo-787b675c78-xhsrq to minikube
+14m         Normal    ScalingReplicaSet              deployment/soft-affinity-demo                  Scaled up replica set soft-affinity-demo-787b675c78 from 3 to 5
+14m         Normal    SuccessfulCreate               replicaset/soft-affinity-demo-787b675c78       Created pod: soft-affinity-demo-787b675c78-pbvcb
+14m         Normal    SuccessfulCreate               replicaset/soft-affinity-demo-787b675c78       Created pod: soft-affinity-demo-787b675c78-xhsrq
+14m         Normal    Pulling                        pod/anti-affinity-demo-58975dfdbb-g2kg7        Pulling image "nginx"
+14m         Normal    Pulling                        pod/anti-affinity-demo-58975dfdbb-l2rvs        Pulling image "nginx"
+14m         Normal    Pulling                        pod/soft-affinity-demo-787b675c78-pbvcb        Pulling image "nginx"
+14m         Normal    Pulling                        pod/soft-affinity-demo-787b675c78-xhsrq        Pulling image "nginx"
+14m         Normal    Pulling                        pod/hard-affinity-demo-6db64dcd6b-brn52        Pulling image "nginx"
+14m         Normal    Pulled                         pod/soft-affinity-demo-787b675c78-pbvcb        Successfully pulled image "nginx" in 5.125s (5.125s including waiting). Image size: 192226221 bytes.
+14m         Normal    Created                        pod/soft-affinity-demo-787b675c78-pbvcb        Created container: nginx
+14m         Normal    Started                        pod/soft-affinity-demo-787b675c78-pbvcb        Started container nginx
+13m         Normal    Pulled                         pod/anti-affinity-demo-58975dfdbb-g2kg7        Successfully pulled image "nginx" in 3.454s (8.578s including waiting). Image size: 192226221 bytes.
+13m         Normal    Created                        pod/anti-affinity-demo-58975dfdbb-g2kg7        Created container: nginx
+13m         Normal    Started                        pod/anti-affinity-demo-58975dfdbb-g2kg7        Started container nginx
+13m         Normal    Pulled                         pod/soft-affinity-demo-787b675c78-xhsrq        Successfully pulled image "nginx" in 4.562s (12.765s including waiting). Image size: 192226221 bytes.
+13m         Normal    Created                        pod/soft-affinity-demo-787b675c78-xhsrq        Created container: nginx
+13m         Normal    Started                        pod/soft-affinity-demo-787b675c78-xhsrq        Started container nginx
+13m         Normal    Pulled                         pod/anti-affinity-demo-58975dfdbb-l2rvs        Successfully pulled image "nginx" in 3.282s (15.94s including waiting). Image size: 192226221 bytes.
+13m         Normal    Created                        pod/anti-affinity-demo-58975dfdbb-l2rvs        Created container: nginx
+13m         Normal    Started                        pod/anti-affinity-demo-58975dfdbb-l2rvs        Started container nginx
+13m         Normal    Pulled                         pod/hard-affinity-demo-6db64dcd6b-brn52        Successfully pulled image "nginx" in 4.09s (19.616s including waiting). Image size: 192226221 bytes.
+13m         Normal    Created                        pod/hard-affinity-demo-6db64dcd6b-brn52        Created container: nginx
+13m         Normal    Started                        pod/hard-affinity-demo-6db64dcd6b-brn52        Started container nginx
+12m         Normal    Pulled                         pod/load-generator                             Successfully pulled image "busybox" in 3.134s (3.134s including waiting). Image size: 4277910 bytes.
+12m         Warning   Failed                         pod/load-generator                             Error: failed to start container "load-generator": Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: exec: "C:/Program Files/Git/usr/bin/sh": stat C:/Program Files/Git/usr/bin/sh: no such file or directory: unknown
+12m         Warning   FailedScheduling               pod/wrong-label-pod                            0/1 nodes are available: 1 node(s) didn't match Pod's node affinity/selector. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+10m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/myapp                  failed to get cpu utilization: missing request for cpu in container react-app of Pod react-frontend-dev-79b7b6cc87-59ttw
+7m39s       Warning   FailedScheduling               pod/wrong-label-pod                            0/1 nodes are available: 1 node(s) had untolerated taint {role: database}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+7m5s        Normal    Pulled                         pod/load-generator                             (combined from similar events): Successfully pulled image "busybox" in 3.037s (3.037s including waiting). Image size: 4277910 bytes.
+7m4s        Normal    Created                        pod/load-generator                             Created container: load-generator
+6m21s       Warning   FailedScheduling               pod/regular-pod                                0/1 nodes are available: 1 node(s) had untolerated taint {role: database}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+6m12s       Warning   Failed                         pod/rolling-deployment-5697d46649-mkmmv        Error: ImagePullBackOff
+5m39s       Warning   FailedGetResourceMetric        horizontalpodautoscaler/myapp                  failed to get cpu utilization: missing request for cpu in container dummy of Pod pod-e
+4m56s       Warning   Failed                         pod/backend-dev-deployment-8448bb4f88-sc8tj    Error: ImagePullBackOff
+4m11s       Warning   Failed                         pod/rolling-deployment-5697d46649-bk4d5        Error: ImagePullBackOff
+4m3s        Normal    Scheduled                      pod/tolerant-pod                               Successfully assigned default/tolerant-pod to minikube
+3m59s       Normal    Pulling                        pod/tolerant-pod                               Pulling image "nginx"
+3m55s       Normal    Pulled                         pod/tolerant-pod                               Successfully pulled image "nginx" in 3.252s (3.254s including waiting). Image size: 192226221 bytes.
+3m54s       Normal    Created                        pod/tolerant-pod                               Created container: nginx
+3m54s       Normal    Started                        pod/tolerant-pod                               Started container nginx
+3m49s       Normal    BackOff                        pod/app                                        Back-off pulling image "pilotapp:v1"
+3m47s       Normal    BackOff                        pod/rolling-deployment-5697d46649-bk4d5        Back-off pulling image "nginx:doesnotexist"
+3m43s       Normal    BackOff                        pod/rolling-deployment-5697d46649-mkmmv        Back-off pulling image "nginx:doesnotexist"
+3m40s       Normal    BackOff                        pod/backend-dev-deployment-8448bb4f88-nw68s    Back-off pulling image "my-backend:latest"
+3m40s       Warning   Failed                         pod/backend-dev-deployment-8448bb4f88-nw68s    Error: ImagePullBackOff
+3m37s       Normal    BackOff                        pod/backend-dev-deployment-8448bb4f88-sc8tj    Back-off pulling image "my-backend:latest"
+2m33s       Warning   BackOff                        pod/load-generator                             Back-off restarting failed container load-generator in pod load-generator_default(1a7e0cf0-5e34-4e35-a49f-31919de45782)
+2m26s       Normal    TaintManagerEviction           pod/httpds-bbd777f8d-nfsh9                     Marking for deletion Pod default/httpds-bbd777f8d-nfsh9
+2m26s       Normal    TaintManagerEviction           pod/anti-affinity-demo-58975dfdbb-zgnz8        Marking for deletion Pod default/anti-affinity-demo-58975dfdbb-zgnz8
+2m26s       Normal    TaintManagerEviction           pod/pod-i                                      Marking for deletion Pod default/pod-i
+2m26s       Normal    TaintManagerEviction           pod/pod-f                                      Marking for deletion Pod default/pod-f
+2m26s       Normal    TaintManagerEviction           pod/hdd-pod                                    Marking for deletion Pod default/hdd-pod
+2m26s       Normal    TaintManagerEviction           pod/react-frontend-dev-79b7b6cc87-jk8m6        Marking for deletion Pod default/react-frontend-dev-79b7b6cc87-jk8m6
+2m26s       Normal    TaintManagerEviction           pod/nginx                                      Marking for deletion Pod default/nginx
+2m26s       Normal    TaintManagerEviction           pod/soft-affinity-demo-787b675c78-xhsrq        Marking for deletion Pod default/soft-affinity-demo-787b675c78-xhsrq
+2m26s       Normal    TaintManagerEviction           pod/pod-e                                      Marking for deletion Pod default/pod-e
+2m26s       Normal    TaintManagerEviction           pod/tolerant-pod                               Marking for deletion Pod default/tolerant-pod
+2m26s       Normal    TaintManagerEviction           pod/soft-affinity-demo-787b675c78-xsg9q        Marking for deletion Pod default/soft-affinity-demo-787b675c78-xsg9q
+2m26s       Normal    TaintManagerEviction           pod/postgres-db-dev-778b4db454-zgpdj           Marking for deletion Pod default/postgres-db-dev-778b4db454-zgpdj
+2m26s       Normal    TaintManagerEviction           pod/anti-affinity-demo-58975dfdbb-l2rvs        Marking for deletion Pod default/anti-affinity-demo-58975dfdbb-l2rvs
+2m26s       Normal    TaintManagerEviction           pod/hard-affinity-demo-6db64dcd6b-z28tl        Marking for deletion Pod default/hard-affinity-demo-6db64dcd6b-z28tl
+2m26s       Normal    TaintManagerEviction           pod/soft-affinity-demo-787b675c78-pbvcb        Marking for deletion Pod default/soft-affinity-demo-787b675c78-pbvcb
+2m26s       Normal    TaintManagerEviction           pod/httpd-7ffb6c7dd7-lcwxq                     Marking for deletion Pod default/httpd-7ffb6c7dd7-lcwxq
+2m26s       Normal    TaintManagerEviction           pod/web-2                                      Marking for deletion Pod default/web-2
+2m26s       Normal    TaintManagerEviction           pod/backend-dev-deployment-8448bb4f88-nw68s    Marking for deletion Pod default/backend-dev-deployment-8448bb4f88-nw68s
+2m26s       Normal    TaintManagerEviction           pod/web-app-5c89984b6f-4sf2t                   Marking for deletion Pod default/web-app-5c89984b6f-4sf2t
+2m26s       Normal    TaintManagerEviction           pod/react-frontend-dev-79b7b6cc87-b5p7m        Marking for deletion Pod default/react-frontend-dev-79b7b6cc87-b5p7m
+2m26s       Normal    TaintManagerEviction           pod/httpds-bbd777f8d-svclx                     Marking for deletion Pod default/httpds-bbd777f8d-svclx
+2m26s       Normal    TaintManagerEviction           pod/recreate-deployment-866ccdc575-hrh45       Marking for deletion Pod default/recreate-deployment-866ccdc575-hrh45
+2m26s       Normal    TaintManagerEviction           pod/deploy-6f66f85776-zqvtf                    Marking for deletion Pod default/deploy-6f66f85776-zqvtf
+2m26s       Normal    TaintManagerEviction           pod/nginx-deployment-86c57bc6b8-sksw5          Marking for deletion Pod default/nginx-deployment-86c57bc6b8-sksw5
+2m26s       Normal    TaintManagerEviction           pod/soft-affinity-demo-787b675c78-j6fvk        Marking for deletion Pod default/soft-affinity-demo-787b675c78-j6fvk
+2m26s       Normal    TaintManagerEviction           pod/httpd-7ffb6c7dd7-qzfwh                     Marking for deletion Pod default/httpd-7ffb6c7dd7-qzfwh
+2m26s       Normal    TaintManagerEviction           pod/app                                        Marking for deletion Pod default/app
+2m26s       Normal    TaintManagerEviction           pod/recreate-deployment-866ccdc575-msjjh       Marking for deletion Pod default/recreate-deployment-866ccdc575-msjjh
+2m26s       Normal    TaintManagerEviction           pod/react-frontend-dev-79b7b6cc87-59ttw        Marking for deletion Pod default/react-frontend-dev-79b7b6cc87-59ttw
+2m26s       Normal    TaintManagerEviction           pod/deploy-6f66f85776-h2wd8                    Marking for deletion Pod default/deploy-6f66f85776-h2wd8
+2m26s       Normal    TaintManagerEviction           pod/hard-affinity-demo-6db64dcd6b-s9kzn        Marking for deletion Pod default/hard-affinity-demo-6db64dcd6b-s9kzn
+2m26s       Normal    TaintManagerEviction           pod/standalone-nginx                           Marking for deletion Pod default/standalone-nginx
+2m26s       Normal    TaintManagerEviction           pod/web-app-5c89984b6f-wxds8                   Marking for deletion Pod default/web-app-5c89984b6f-wxds8
+2m26s       Normal    TaintManagerEviction           pod/pod-g                                      Marking for deletion Pod default/pod-g
+2m26s       Warning   Failed                         pod/app                                        Error: ImagePullBackOff
+2m26s       Normal    TaintManagerEviction           pod/soft-affinity-demo-787b675c78-bgjb4        Marking for deletion Pod default/soft-affinity-demo-787b675c78-bgjb4
+2m26s       Normal    TaintManagerEviction           pod/pod-c                                      Marking for deletion Pod default/pod-c
+2m26s       Normal    TaintManagerEviction           pod/web-0                                      Marking for deletion Pod default/web-0
+2m26s       Normal    TaintManagerEviction           pod/rolling-deployment-55b6d89599-8szt7        Marking for deletion Pod default/rolling-deployment-55b6d89599-8szt7
+2m26s       Normal    TaintManagerEviction           pod/web-app-5c89984b6f-6xcl2                   Marking for deletion Pod default/web-app-5c89984b6f-6xcl2
+2m26s       Normal    TaintManagerEviction           pod/pod-d                                      Marking for deletion Pod default/pod-d
+2m26s       Normal    TaintManagerEviction           pod/react-frontend-dev-79b7b6cc87-5hjws        Marking for deletion Pod default/react-frontend-dev-79b7b6cc87-5hjws
+2m26s       Normal    TaintManagerEviction           pod/anti-affinity-demo-58975dfdbb-zpxz5        Marking for deletion Pod default/anti-affinity-demo-58975dfdbb-zpxz5
+2m26s       Normal    TaintManagerEviction           pod/anti-affinity-demo-58975dfdbb-kwqdx        Marking for deletion Pod default/anti-affinity-demo-58975dfdbb-kwqdx
+2m26s       Normal    TaintManagerEviction           pod/seed-nginx                                 Marking for deletion Pod default/seed-nginx
+2m26s       Normal    TaintManagerEviction           pod/pod-h                                      Marking for deletion Pod default/pod-h
+2m26s       Normal    TaintManagerEviction           pod/rolling-deployment-55b6d89599-pg7r7        Marking for deletion Pod default/rolling-deployment-55b6d89599-pg7r7
+2m26s       Normal    TaintManagerEviction           pod/web-app-5c89984b6f-nsjdd                   Marking for deletion Pod default/web-app-5c89984b6f-nsjdd
+2m26s       Normal    TaintManagerEviction           pod/api-backend-dev-b448f6d6d-zjd4m            Marking for deletion Pod default/api-backend-dev-b448f6d6d-zjd4m
+2m26s       Normal    TaintManagerEviction           pod/log-processor                              Marking for deletion Pod default/log-processor
+2m26s       Normal    TaintManagerEviction           pod/httpd-7ffb6c7dd7-dzxfv                     Marking for deletion Pod default/httpd-7ffb6c7dd7-dzxfv
+2m26s       Normal    TaintManagerEviction           pod/api-backend-dev-b448f6d6d-8gzdz            Marking for deletion Pod default/api-backend-dev-b448f6d6d-8gzdz
+2m26s       Normal    TaintManagerEviction           pod/rolling-deployment-55b6d89599-qshvp        Marking for deletion Pod default/rolling-deployment-55b6d89599-qshvp
+2m26s       Normal    TaintManagerEviction           pod/anti-affinity-demo-58975dfdbb-g2kg7        Marking for deletion Pod default/anti-affinity-demo-58975dfdbb-g2kg7
+2m26s       Normal    TaintManagerEviction           pod/load-generator                             Marking for deletion Pod default/load-generator
+2m26s       Normal    TaintManagerEviction           pod/rolling-deployment-5697d46649-mkmmv        Marking for deletion Pod default/rolling-deployment-5697d46649-mkmmv
+2m26s       Normal    TaintManagerEviction           pod/pod-b                                      Marking for deletion Pod default/pod-b
+2m26s       Normal    TaintManagerEviction           pod/ssd-pod                                    Marking for deletion Pod default/ssd-pod
+2m26s       Normal    TaintManagerEviction           pod/web-app-5c89984b6f-bh6mh                   Marking for deletion Pod default/web-app-5c89984b6f-bh6mh
+2m26s       Normal    TaintManagerEviction           pod/web-app-5c89984b6f-frm8t                   Marking for deletion Pod default/web-app-5c89984b6f-frm8t
+2m26s       Normal    TaintManagerEviction           pod/httpds-bbd777f8d-5qlpk                     Marking for deletion Pod default/httpds-bbd777f8d-5qlpk
+2m26s       Normal    TaintManagerEviction           pod/myapp-5886fbf8-z2bzs                       Marking for deletion Pod default/myapp-5886fbf8-z2bzs
+2m26s       Normal    TaintManagerEviction           pod/hard-affinity-demo-6db64dcd6b-brn52        Marking for deletion Pod default/hard-affinity-demo-6db64dcd6b-brn52
+2m26s       Normal    TaintManagerEviction           pod/backend-dev-deployment-8448bb4f88-sc8tj    Marking for deletion Pod default/backend-dev-deployment-8448bb4f88-sc8tj
+2m26s       Normal    TaintManagerEviction           pod/nginx-deployment-86c57bc6b8-8rk92          Marking for deletion Pod default/nginx-deployment-86c57bc6b8-8rk92
+2m26s       Normal    TaintManagerEviction           pod/nginx-deployment-86c57bc6b8-xcmgp          Marking for deletion Pod default/nginx-deployment-86c57bc6b8-xcmgp
+2m26s       Normal    TaintManagerEviction           pod/react-frontend-dev-79b7b6cc87-7wt8p        Marking for deletion Pod default/react-frontend-dev-79b7b6cc87-7wt8p
+2m26s       Normal    TaintManagerEviction           pod/rolling-deployment-5697d46649-bk4d5        Marking for deletion Pod default/rolling-deployment-5697d46649-bk4d5
+2m26s       Normal    TaintManagerEviction           pod/pod-a                                      Marking for deletion Pod default/pod-a
+2m26s       Normal    TaintManagerEviction           pod/web-1                                      Marking for deletion Pod default/web-1
+2m25s       Warning   FailedScheduling               pod/wrong-label-pod                            0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m19s       Normal    Killing                        pod/hard-affinity-demo-6db64dcd6b-brn52        Stopping container nginx
+2m19s       Normal    Killing                        pod/react-frontend-dev-79b7b6cc87-7wt8p        Stopping container react-app
+2m19s       Normal    Killing                        pod/pod-a                                      Stopping container dummy
+2m19s       Normal    Killing                        pod/hard-affinity-demo-6db64dcd6b-s9kzn        Stopping container nginx
+2m19s       Normal    Killing                        pod/hard-affinity-demo-6db64dcd6b-z28tl        Stopping container nginx
+2m18s       Normal    Killing                        pod/pod-i                                      Stopping container dummy
+2m18s       Normal    SuccessfulCreate               replicaset/web-app-5c89984b6f                  Created pod: web-app-5c89984b6f-wsm7k
+2m18s       Normal    SuccessfulCreate               replicaset/deploy-6f66f85776                   Created pod: deploy-6f66f85776-hkz2w
+2m18s       Normal    Killing                        pod/web-app-5c89984b6f-4sf2t                   Stopping container nginx
+2m18s       Normal    Killing                        pod/httpd-7ffb6c7dd7-lcwxq                     Stopping container httpd
+2m18s       Normal    SuccessfulCreate               replicaset/react-frontend-dev-79b7b6cc87       Created pod: react-frontend-dev-79b7b6cc87-r9pvh
+2m18s       Normal    Killing                        pod/web-app-5c89984b6f-6xcl2                   Stopping container nginx
+2m18s       Normal    Killing                        pod/deploy-6f66f85776-h2wd8                    Stopping container nginx
+2m18s       Normal    Killing                        pod/react-frontend-dev-79b7b6cc87-b5p7m        Stopping container react-app
+2m18s       Normal    SuccessfulCreate               replicaset/hard-affinity-demo-6db64dcd6b       Created pod: hard-affinity-demo-6db64dcd6b-s48c5
+2m17s       Warning   FailedScheduling               pod/react-frontend-dev-79b7b6cc87-r9pvh        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m17s       Normal    Killing                        pod/pod-c                                      Stopping container dummy
+2m17s       Normal    Killing                        pod/anti-affinity-demo-58975dfdbb-zgnz8        Stopping container nginx
+2m17s       Normal    Killing                        pod/httpd-7ffb6c7dd7-qzfwh                     Stopping container httpd
+2m16s       Normal    SuccessfulCreate               replicaset/httpd-7ffb6c7dd7                    Created pod: httpd-7ffb6c7dd7-k9q5p
+2m15s       Normal    Killing                        pod/web-app-5c89984b6f-frm8t                   Stopping container nginx
+2m15s       Normal    Killing                        pod/web-app-5c89984b6f-wxds8                   Stopping container nginx
+2m14s       Normal    SuccessfulCreate               replicaset/rolling-deployment-5697d46649       Created pod: rolling-deployment-5697d46649-kw8t9
+2m14s       Normal    SuccessfulCreate               replicaset/rolling-deployment-55b6d89599       Created pod: rolling-deployment-55b6d89599-cx5hr
+2m14s       Normal    SuccessfulCreate               replicaset/react-frontend-dev-79b7b6cc87       Created pod: react-frontend-dev-79b7b6cc87-rpgzx
+2m14s       Warning   FailedScheduling               pod/hard-affinity-demo-6db64dcd6b-s48c5        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m14s       Normal    SuccessfulCreate               replicaset/nginx-deployment-86c57bc6b8         Created pod: nginx-deployment-86c57bc6b8-mklzw
+2m13s       Normal    SuccessfulCreate               replicaset/react-frontend-dev-79b7b6cc87       Created pod: react-frontend-dev-79b7b6cc87-s5nzd
+2m13s       Normal    SuccessfulCreate               replicaset/anti-affinity-demo-58975dfdbb       Created pod: anti-affinity-demo-58975dfdbb-pz65v
+2m12s       Warning   FailedScheduling               pod/deploy-6f66f85776-hkz2w                    0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m12s       Normal    SuccessfulCreate               replicaset/web-app-5c89984b6f                  Created pod: web-app-5c89984b6f-qwnvx
+2m12s       Normal    SuccessfulCreate               replicaset/hard-affinity-demo-6db64dcd6b       Created pod: hard-affinity-demo-6db64dcd6b-fsd84
+2m12s       Warning   FailedScheduling               pod/web-app-5c89984b6f-wsm7k                   0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m12s       Normal    SuccessfulCreate               replicaset/web-app-5c89984b6f                  Created pod: web-app-5c89984b6f-xz5sr
+2m12s       Normal    SuccessfulCreate               replicaset/soft-affinity-demo-787b675c78       Created pod: soft-affinity-demo-787b675c78-krgrt
+2m12s       Normal    SuccessfulCreate               replicaset/web-app-5c89984b6f                  Created pod: web-app-5c89984b6f-qj5x6
+2m12s       Normal    SuccessfulCreate               replicaset/deploy-6f66f85776                   Created pod: deploy-6f66f85776-h68l2
+2m12s       Normal    SuccessfulCreate               replicaset/hard-affinity-demo-6db64dcd6b       Created pod: hard-affinity-demo-6db64dcd6b-q984r
+2m11s       Normal    SuccessfulCreate               replicaset/soft-affinity-demo-787b675c78       Created pod: soft-affinity-demo-787b675c78-bg2gs
+2m11s       Normal    SuccessfulCreate               replicaset/httpd-7ffb6c7dd7                    Created pod: httpd-7ffb6c7dd7-xwl4d
+2m11s       Normal    SuccessfulCreate               replicaset/httpd-7ffb6c7dd7                    Created pod: httpd-7ffb6c7dd7-gj4kd
+2m11s       Warning   FailedScheduling               pod/rolling-deployment-5697d46649-kw8t9        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m11s       Warning   FailedScheduling               pod/httpd-7ffb6c7dd7-k9q5p                     0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m11s       Normal    SuccessfulCreate               replicaset/soft-affinity-demo-787b675c78       Created pod: soft-affinity-demo-787b675c78-k5lnv
+2m11s       Normal    SuccessfulCreate               replicaset/web-app-5c89984b6f                  Created pod: web-app-5c89984b6f-kc6fq
+2m10s       Warning   FailedScheduling               pod/nginx-deployment-86c57bc6b8-mklzw          0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m10s       Normal    SuccessfulCreate               replicaset/soft-affinity-demo-787b675c78       Created pod: soft-affinity-demo-787b675c78-jf58z
+2m10s       Normal    SuccessfulCreate               replicaset/soft-affinity-demo-787b675c78       Created pod: soft-affinity-demo-787b675c78-77d4b
+2m10s       Normal    SuccessfulCreate               replicaset/api-backend-dev-b448f6d6d           Created pod: api-backend-dev-b448f6d6d-7qcnb
+2m10s       Normal    SuccessfulCreate               replicaset/api-backend-dev-b448f6d6d           Created pod: api-backend-dev-b448f6d6d-cswwc
+2m10s       Normal    SuccessfulCreate               replicaset/rolling-deployment-55b6d89599       Created pod: rolling-deployment-55b6d89599-vqtzv
+2m10s       Warning   FailedScheduling               pod/rolling-deployment-55b6d89599-cx5hr        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m9s        Normal    SuccessfulCreate               replicaset/httpds-bbd777f8d                    Created pod: httpds-bbd777f8d-dxpcb
+2m9s        Normal    SuccessfulCreate               replicaset/rolling-deployment-55b6d89599       Created pod: rolling-deployment-55b6d89599-lgm5b
+2m9s        Normal    SuccessfulCreate               replicaset/httpds-bbd777f8d                    Created pod: httpds-bbd777f8d-rh2n5
+2m9s        Normal    SuccessfulCreate               replicaset/myapp-5886fbf8                      Created pod: myapp-5886fbf8-csrk5
+2m9s        Warning   FailedScheduling               pod/anti-affinity-demo-58975dfdbb-pz65v        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m9s        Normal    SuccessfulCreate               replicaset/nginx-deployment-86c57bc6b8         Created pod: nginx-deployment-86c57bc6b8-9vp2f
+2m9s        Normal    SuccessfulCreate               replicaset/rolling-deployment-5697d46649       Created pod: rolling-deployment-5697d46649-jncl2
+2m9s        Normal    SuccessfulCreate               replicaset/backend-dev-deployment-8448bb4f88   Created pod: backend-dev-deployment-8448bb4f88-n8rdt
+2m9s        Normal    SuccessfulCreate               replicaset/backend-dev-deployment-8448bb4f88   Created pod: backend-dev-deployment-8448bb4f88-wvr7k
+2m9s        Normal    SuccessfulCreate               replicaset/httpds-bbd777f8d                    Created pod: httpds-bbd777f8d-ndzcj
+2m8s        Normal    SuccessfulCreate               replicaset/recreate-deployment-866ccdc575      Created pod: recreate-deployment-866ccdc575-bwhl2
+2m8s        Normal    SuccessfulCreate               replicaset/nginx-deployment-86c57bc6b8         Created pod: nginx-deployment-86c57bc6b8-j5vrf
+2m8s        Normal    SuccessfulCreate               replicaset/recreate-deployment-866ccdc575      Created pod: recreate-deployment-866ccdc575-vfcqc
+2m8s        Warning   FailedScheduling               pod/react-frontend-dev-79b7b6cc87-s5nzd        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m8s        Normal    SuccessfulCreate               replicaset/postgres-db-dev-778b4db454          Created pod: postgres-db-dev-778b4db454-dngnp
+2m8s        Warning   FailedScheduling               pod/react-frontend-dev-79b7b6cc87-rpgzx        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m7s        Normal    SuccessfulCreate               replicaset/react-frontend-dev-79b7b6cc87       Created pod: react-frontend-dev-79b7b6cc87-gmfm2
+2m7s        Normal    SuccessfulCreate               replicaset/anti-affinity-demo-58975dfdbb       Created pod: anti-affinity-demo-58975dfdbb-bfftn
+2m6s        Normal    SuccessfulCreate               replicaset/react-frontend-dev-79b7b6cc87       Created pod: react-frontend-dev-79b7b6cc87-s7xqk
+2m6s        Normal    SuccessfulCreate               replicaset/anti-affinity-demo-58975dfdbb       Created pod: anti-affinity-demo-58975dfdbb-7nzxg
+2m6s        Normal    SuccessfulCreate               replicaset/anti-affinity-demo-58975dfdbb       Created pod: anti-affinity-demo-58975dfdbb-wrd8k
+2m6s        Normal    SuccessfulCreate               replicaset/anti-affinity-demo-58975dfdbb       Created pod: anti-affinity-demo-58975dfdbb-jld7c
+2m6s        Normal    SuccessfulCreate               replicaset/web-app-5c89984b6f                  Created pod: web-app-5c89984b6f-l2xn5
+2m5s        Normal    Killing                        pod/nginx-deployment-86c57bc6b8-8rk92          Stopping container nginx
+2m5s        Warning   FailedScheduling               pod/hard-affinity-demo-6db64dcd6b-fsd84        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m4s        Warning   FailedScheduling               pod/deploy-6f66f85776-h68l2                    0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m3s        Warning   FailedScheduling               pod/web-app-5c89984b6f-qj5x6                   0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m3s        Normal    Pulling                        pod/load-generator                             Pulling image "busybox"
+2m1s        Warning   FailedScheduling               pod/hard-affinity-demo-6db64dcd6b-q984r        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m1s        Normal    Killing                        pod/web-2                                      Stopping container nginx
+2m          Warning   FailedScheduling               pod/web-app-5c89984b6f-xz5sr                   0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m          Warning   FailedScheduling               pod/soft-affinity-demo-787b675c78-krgrt        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m          Warning   FailedScheduling               pod/httpd-7ffb6c7dd7-xwl4d                     0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+2m          Warning   FailedScheduling               pod/web-app-5c89984b6f-qwnvx                   0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+119s        Warning   FailedScheduling               pod/soft-affinity-demo-787b675c78-bg2gs        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+119s        Warning   FailedScheduling               pod/web-app-5c89984b6f-kc6fq                   0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+119s        Warning   FailedScheduling               pod/soft-affinity-demo-787b675c78-k5lnv        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+118s        Warning   FailedScheduling               pod/soft-affinity-demo-787b675c78-jf58z        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+118s        Warning   FailedScheduling               pod/httpd-7ffb6c7dd7-gj4kd                     0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+118s        Warning   FailedScheduling               pod/soft-affinity-demo-787b675c78-77d4b        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+117s        Warning   FailedScheduling               pod/api-backend-dev-b448f6d6d-7qcnb            0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+117s        Warning   FailedScheduling               pod/rolling-deployment-55b6d89599-vqtzv        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+117s        Warning   FailedScheduling               pod/rolling-deployment-5697d46649-jncl2        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+117s        Warning   FailedScheduling               pod/api-backend-dev-b448f6d6d-cswwc            0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+117s        Warning   FailedScheduling               pod/myapp-5886fbf8-csrk5                       0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+117s        Warning   FailedScheduling               pod/backend-dev-deployment-8448bb4f88-n8rdt    0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+116s        Warning   FailedScheduling               pod/rolling-deployment-55b6d89599-lgm5b        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+116s        Warning   FailedScheduling               pod/nginx-deployment-86c57bc6b8-9vp2f          0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+116s        Warning   FailedScheduling               pod/recreate-deployment-866ccdc575-vfcqc       0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+116s        Warning   FailedScheduling               pod/httpds-bbd777f8d-ndzcj                     0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+116s        Warning   FailedScheduling               pod/backend-dev-deployment-8448bb4f88-wvr7k    0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+116s        Warning   FailedScheduling               pod/nginx-deployment-86c57bc6b8-j5vrf          0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+116s        Warning   FailedScheduling               pod/httpds-bbd777f8d-rh2n5                     0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+116s        Warning   FailedScheduling               pod/httpds-bbd777f8d-dxpcb                     0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+115s        Warning   FailedScheduling               pod/anti-affinity-demo-58975dfdbb-bfftn        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+115s        Warning   FailedScheduling               pod/anti-affinity-demo-58975dfdbb-7nzxg        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+115s        Warning   FailedScheduling               pod/web-app-5c89984b6f-l2xn5                   0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+115s        Warning   FailedScheduling               pod/anti-affinity-demo-58975dfdbb-wrd8k        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+115s        Warning   FailedScheduling               pod/recreate-deployment-866ccdc575-bwhl2       0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+115s        Warning   FailedScheduling               pod/react-frontend-dev-79b7b6cc87-gmfm2        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+115s        Warning   FailedScheduling               pod/postgres-db-dev-778b4db454-dngnp           0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+115s        Warning   FailedScheduling               pod/anti-affinity-demo-58975dfdbb-jld7c        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+115s        Warning   FailedScheduling               pod/react-frontend-dev-79b7b6cc87-s7xqk        0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+103s        Normal    Killing                        pod/web-0                                      Stopping container nginx
+92s         Normal    Killing                        pod/pod-f                                      Stopping container dummy
+91s         Normal    Killing                        pod/pod-h                                      Stopping container dummy
+90s         Normal    Killing                        pod/soft-affinity-demo-787b675c78-xsg9q        Stopping container nginx
+90s         Normal    Killing                        pod/api-backend-dev-b448f6d6d-8gzdz            Stopping container api-server
+90s         Normal    Killing                        pod/httpd-7ffb6c7dd7-dzxfv                     Stopping container httpd
+90s         Normal    Killing                        pod/pod-g                                      Stopping container dummy
+90s         Normal    Killing                        pod/tolerant-pod                               Stopping container nginx
+90s         Normal    Killing                        pod/pod-d                                      Stopping container dummy
+90s         Normal    Killing                        pod/react-frontend-dev-79b7b6cc87-5hjws        Stopping container react-app
+90s         Normal    Killing                        pod/anti-affinity-demo-58975dfdbb-kwqdx        Stopping container nginx
+90s         Normal    Killing                        pod/httpds-bbd777f8d-nfsh9                     Stopping container httpd
+90s         Normal    Killing                        pod/log-processor                              Stopping container nginx
+90s         Normal    Killing                        pod/standalone-nginx                           Stopping container nginx
+90s         Normal    Killing                        pod/pod-b                                      Stopping container dummy
+90s         Normal    Killing                        pod/web-app-5c89984b6f-bh6mh                   Stopping container nginx
+90s         Normal    Killing                        pod/deploy-6f66f85776-zqvtf                    Stopping container nginx
+90s         Normal    Killing                        pod/react-frontend-dev-79b7b6cc87-jk8m6        Stopping container react-app
+90s         Normal    Killing                        pod/nginx                                      Stopping container nginx
+90s         Normal    Killing                        pod/recreate-deployment-866ccdc575-hrh45       Stopping container recreate-container
+90s         Normal    Killing                        pod/httpds-bbd777f8d-svclx                     Stopping container httpd
+90s         Normal    Killing                        pod/soft-affinity-demo-787b675c78-xhsrq        Stopping container nginx
+90s         Normal    Killing                        pod/nginx-deployment-86c57bc6b8-xcmgp          Stopping container nginx
+90s         Normal    Killing                        pod/log-processor                              Stopping container busybox
+90s         Normal    Killing                        pod/anti-affinity-demo-58975dfdbb-g2kg7        Stopping container nginx
+90s         Normal    Killing                        pod/rolling-deployment-55b6d89599-qshvp        Stopping container rolling-container
+90s         Normal    Killing                        pod/react-frontend-dev-79b7b6cc87-59ttw        Stopping container react-app
+90s         Normal    Killing                        pod/nginx-deployment-86c57bc6b8-sksw5          Stopping container nginx
+90s         Normal    Killing                        pod/rolling-deployment-55b6d89599-pg7r7        Stopping container rolling-container
+90s         Normal    Killing                        pod/web-app-5c89984b6f-nsjdd                   Stopping container nginx
+90s         Normal    Killing                        pod/api-backend-dev-b448f6d6d-zjd4m            Stopping container api-server
+90s         Normal    Killing                        pod/pod-e                                      Stopping container dummy
+90s         Normal    Killing                        pod/hdd-pod                                    Stopping container nginx
+86s         Warning   FailedScheduling               pod/regular-pod                                0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+82s         Normal    Killing                        pod/httpds-bbd777f8d-5qlpk                     Stopping container httpd
+82s         Normal    Killing                        pod/myapp-5886fbf8-z2bzs                       Stopping container myapp
+82s         Normal    Killing                        pod/seed-nginx                                 Stopping container nginx
+82s         Normal    Killing                        pod/recreate-deployment-866ccdc575-msjjh       Stopping container recreate-container
+82s         Normal    Killing                        pod/soft-affinity-demo-787b675c78-j6fvk        Stopping container nginx
+82s         Normal    Killing                        pod/web-1                                      Stopping container nginx
+82s         Normal    Killing                        pod/ssd-pod                                    Stopping container nginx
+82s         Normal    Killing                        pod/soft-affinity-demo-787b675c78-pbvcb        Stopping container nginx
+59s         Normal    SuccessfulCreate               statefulset/web                                create Pod web-0 in StatefulSet web successful
+59s         Warning   FailedScheduling               pod/web-0                                      0/1 nodes are available: 1 node(s) had untolerated taint {maintenance: true}. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+58s         Normal    Killing                        pod/soft-affinity-demo-787b675c78-bgjb4        Stopping container nginx
+58s         Normal    Killing                        pod/postgres-db-dev-778b4db454-zgpdj           Stopping container postgres
+51s         Warning   FailedGetResourceMetric        horizontalpodautoscaler/myapp                  failed to get cpu utilization: unable to get metrics for resource cpu: unable to fetch metrics from resource metrics API: the server is currently unable to handle the request (get pods.metrics.k8s.io)
+50s         Normal    Killing                        pod/anti-affinity-demo-58975dfdbb-l2rvs        Stopping container nginx
+50s         Normal    Killing                        pod/anti-affinity-demo-58975dfdbb-zpxz5        Stopping container nginx
+49s         Normal    Killing                        pod/rolling-deployment-55b6d89599-8szt7        Stopping container rolling-container

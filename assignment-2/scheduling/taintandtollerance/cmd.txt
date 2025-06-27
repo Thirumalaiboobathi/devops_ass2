@@ -1,0 +1,12 @@
+taint:
+kubectl taint nodes minikube role=database:NoSchedule
+
+noexecute:
+kubectl taint nodes minikube maintenance=true:NoExecute
+
+
+to remove taints
+
+kubectl taint nodes minikube role-
+kubectl taint nodes minikube maintenance-
+

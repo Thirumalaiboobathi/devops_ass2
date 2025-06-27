@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hard-affinity-demo
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: affinity-app
+  template:
+    metadata:
+      labels:
+        app: affinity-app
+    spec:
+      affinity:
+        podAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchExpressions:
+              - key: affinity-group
+                operator: In
+                values:
+                - nginx-affinity
+            topologyKey: kubernetes.io/hostname
+      containers:
+      - name: nginx
+        image: nginx

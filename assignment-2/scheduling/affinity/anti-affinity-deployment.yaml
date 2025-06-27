@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: anti-affinity-demo
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: anti-app
+  template:
+    metadata:
+      labels:
+        app: anti-app
+    spec:
+      affinity: #Try your best to place each anti-app pod on different nodes, so they don't run on the same node
+        podAntiAffinity: #Try to avoid placing this pod near similar pods
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 100
+            podAffinityTerm:
+              labelSelector:
+                matchExpressions:
+                - key: app
+                  operator: In
+                  values:
+                  - anti-app
+              topologyKey: kubernetes.io/hostname
+      containers:
+      - name: nginx
+        image: nginx
